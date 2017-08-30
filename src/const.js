@@ -1,0 +1,2 @@
+export const REQUEST_AT_SERVER_TIME = 10;
+export const BROWSER_SERVER_ROUNDTRIP_TIME = 500;

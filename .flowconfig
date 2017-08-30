@@ -1,0 +1,18 @@
+[ignore]
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+# TODO: remove after react-motion will be updated with new flow typedefs
+.*/node_modules/react-motion/lib/*
+.*/node_modules/material-ui/*
+.*/node_modules/jss/*
+.*/node_modules/react-event-listener/*
+.*/node_modules/babel-plugin-transform-react-remove-prop-types/*
+
+
+[include]
+
+[libs]
+
+[options]
+suppress_comment=\\(.\\|\n\\)*\\$ExpectError
+
+[lints]
